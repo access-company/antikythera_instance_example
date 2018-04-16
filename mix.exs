@@ -1,6 +1,6 @@
 # Copyright(c) 2015-2018 ACCESS CO., LTD. All rights reserved.
 
-solomon_dep = {:solomon, [git: "git@github.com:access-company/solomon.git", ref: "f5aff8048db501983e875a6690b0b872f69287ab"]}
+solomon_dep = {:solomon, [git: "git@github.com:access-company/solomon.git"]}
 
 try do
   parent_dir = Path.expand("..", __DIR__)

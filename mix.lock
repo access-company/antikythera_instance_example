@@ -30,7 +30,7 @@
   "ranch": {:hex, :ranch, "1.4.0", "10272f95da79340fa7e8774ba7930b901713d272905d0012b06ca6d994f8826b", [:rebar3], [], "hexpm"},
   "recon": {:hex, :recon, "2.3.4", "b406c2fccdeaa0d94e23b5e30ae3d635a2d461e363a5c9c6316897037cf050d2", [:rebar3], [], "hexpm"},
   "relx": {:hex, :relx, "3.23.1", "8af4433934d9bb664e8282d2e45ac5deaff44859ddaabbe50cd7d885581cd24d", [:rebar3], [{:bbmustache, "1.0.4", [hex: :bbmustache, repo: "hexpm", optional: false]}, {:cf, "0.2.2", [hex: :cf, repo: "hexpm", optional: false]}, {:erlware_commons, "1.0.0", [hex: :erlware_commons, repo: "hexpm", optional: false]}, {:getopt, "0.8.2", [hex: :getopt, repo: "hexpm", optional: false]}, {:providers, "1.6.0", [hex: :providers, repo: "hexpm", optional: false]}], "hexpm"},
-  "solomon": {:git, "git@github.com:access-company/solomon.git", "f5aff8048db501983e875a6690b0b872f69287ab", [ref: "f5aff8048db501983e875a6690b0b872f69287ab"]},
+  "solomon": {:git, "git@github.com:access-company/solomon.git", "039519c20d96bf6433afba1178861598a0cf46c1", []},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], [], "hexpm"},
   "stream_data": {:hex, :stream_data, "0.4.2", "fa86b78c88ec4eaa482c0891350fcc23f19a79059a687760ddcf8680aac2799b", [:mix], [], "hexpm"},
   "syn": {:hex, :syn, "1.6.3", "e3400a6286a7c44ed0a0293d0e83a1f44aa9b1a9ec2c8d54eee2cd1f4ff2f94e", [:rebar3], [], "hexpm"},
