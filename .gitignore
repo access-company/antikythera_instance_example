@@ -1,0 +1,10 @@
+/_build
+/cover
+/deps
+/exdoc
+/rel_erlang-*/
+/rel_local_erlang-*/
+erl_crash.dump
+*.ez
+*.swp
+*~
