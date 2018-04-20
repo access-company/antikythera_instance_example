@@ -1,13 +1,13 @@
-# SolomonInstanceExample
+# AntikytheraInstanceExample
 
-An example instance of [Solomon].
+An example instance of [Antikythera].
 
-[Solomon]: https://github.com/access-company/solomon
+[Antikythera]: https://github.com/access-company/solomon
 
-`SolomonInstanceExample` is:
+`AntikytheraInstanceExample` is:
 
-- used for testing [Solomon] and [Testgear](https://github.com/access-company/testgear)'s behavior in CI
-- a sample case for solomon instance mix project
+- used for testing [Antikythera] and [Testgear](https://github.com/access-company/testgear)'s behavior in CI
+- a sample case for [Antikythera] instance mix project
 
-[Solomon] is a project that enables building an in-house Platform as a Service (PaaS).
-You, as a platform developer/operator, create and deploy a "solomon instance" like this.
+[Antikythera] is a project that enables building an in-house Platform as a Service (PaaS).
+You, as a platform administrator, create and deploy an "antikythera instance" like this.
