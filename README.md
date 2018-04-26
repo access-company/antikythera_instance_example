@@ -11,3 +11,9 @@ An example instance of [Antikythera].
 
 [Antikythera] is a project that enables building an in-house Platform as a Service (PaaS).
 You, as a platform administrator, create and deploy an "antikythera instance" like this.
+
+## Copyright and License
+
+Copyright(c) 2015-2018 [ACCESS CO., LTD](https://www.access-company.com). All rights reserved.
+
+Antikythera source code is licensed under the [Apache License version 2.0](./LICENSE).
