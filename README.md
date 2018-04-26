@@ -2,7 +2,7 @@
 
 An example instance of [Antikythera].
 
-[Antikythera]: https://github.com/access-company/solomon
+[Antikythera]: https://github.com/access-company/antikythera
 
 `AntikytheraInstanceExample` is:
 
