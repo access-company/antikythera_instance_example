@@ -1,6 +1,6 @@
 # Copyright(c) 2015-2018 ACCESS CO., LTD. All rights reserved.
 
-antikythera_dep = {:solomon, [git: "git@github.com:access-company/solomon.git", ref: "f4de1aa1e9b781a4e5e7e4fa9ff1c3e69a43a0a6"]}
+antikythera_dep = {:antikythera, [git: "git@github.com:access-company/antikythera.git", ref: "0654efffe676aef3d51accef27cf2d5867b382c5"]}
 
 try do
   parent_dir = Path.expand("..", __DIR__)
@@ -9,27 +9,27 @@ try do
       "deps" -> parent_dir                 # this antikythera instance project is used by a gear
       _      -> Path.join(__DIR__, "deps") # this antikythera instance project is the toplevel mix project
     end
-  mix_common_file_path = Path.join([deps_dir, "solomon", "mix_common.exs"])
+  mix_common_file_path = Path.join([deps_dir, "antikythera", "mix_common.exs"])
   Code.require_file(mix_common_file_path)
 
   defmodule AntikytheraInstanceExample.Mixfile do
     use Mix.Project
 
     def project() do
-      github_url = "https://github.com/access-company/solomon_instance_example"
+      github_url = "https://github.com/access-company/antikythera_instance_example"
       [
         app:             :antikythera_instance_example,
-        version:         Solomon.MixCommon.version_with_last_commit_info("0.1.0"),
+        version:         Antikythera.MixCommon.version_with_last_commit_info("0.1.0"),
         start_permanent: Mix.env() == :prod,
         deps:            deps(),
         source_url:      github_url,
         homepage_url:    github_url,
-      ] ++ Solomon.MixCommon.common_project_settings()
+      ] ++ Antikythera.MixCommon.common_project_settings()
     end
 
     def application() do
       [
-        applications: [:solomon | Solomon.MixCommon.antikythera_runtime_dependency_applications(deps())],
+        applications: [:antikythera | Antikythera.MixCommon.antikythera_runtime_dependency_applications(deps())],
       ]
     end
 
