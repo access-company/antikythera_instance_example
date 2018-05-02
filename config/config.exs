@@ -2,6 +2,10 @@
 
 use Mix.Config
 
+# Here we simply reuse `config.exs` file in the antikythera project (and override `:antikythera_instance_name`).
+# See antikythera's `config.exs` file and also `Antikythera.MixConfig` module
+# for detailed explanations on how to configure your antikythera instance project.
+
 repo_parent_dir = Path.expand(Path.join([__DIR__, "..", ".."]))
 deps_dir =
   case Path.basename(repo_parent_dir) do
