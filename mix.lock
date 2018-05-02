@@ -9,7 +9,7 @@
   "erlware_commons": {:hex, :erlware_commons, "1.0.0", "087467de5833c0bb5b3ccdd387f9e9c1fb816a75b7a709629bf24b5ed3246c51", [:rebar3], [{:cf, "0.2.2", [hex: :cf, repo: "hexpm", optional: false]}], "hexpm"},
   "excoveralls": {:hex, :excoveralls, "0.8.1", "0bbf67f22c7dbf7503981d21a5eef5db8bbc3cb86e70d3798e8c802c74fa5e27", [:mix], [{:exjsx, ">= 3.0.0", [hex: :exjsx, repo: "hexpm", optional: false]}, {:hackney, ">= 0.12.0", [hex: :hackney, repo: "hexpm", optional: false]}], "hexpm"},
   "exjsx": {:hex, :exjsx, "4.0.0", "60548841e0212df401e38e63c0078ec57b33e7ea49b032c796ccad8cde794b5c", [:mix], [{:jsx, "~> 2.8.0", [hex: :jsx, repo: "hexpm", optional: false]}], "hexpm"},
-  "exsync": {:hex, :exsync, "0.2.2", "43508814377da10269a1135b3080a97f23d8132a4ca7ad43dc51aae55dfec551", [:mix], [{:file_system, "~> 0.2", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm"},
+  "exsync": {:hex, :exsync, "0.2.3", "a1ac11b4bd3808706003dbe587902101fcc1387d9fc55e8b10972f13a563dd15", [:mix], [{:file_system, "~> 0.2", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm"},
   "fast_xml": {:hex, :fast_xml, "1.1.29", "c6356d28f0f76ffefc68b5eb65916f0b8ca513bab71db8ad95bd8577c47e30e2", [:rebar3], [{:p1_utils, "1.0.11", [hex: :p1_utils, repo: "hexpm", optional: false]}], "hexpm"},
   "file_system": {:hex, :file_system, "0.2.4", "f0bdda195c0e46e987333e986452ec523aed21d784189144f647c43eaf307064", [:mix], [], "hexpm"},
   "getopt": {:hex, :getopt, "0.8.2", "b17556db683000ba50370b16c0619df1337e7af7ecbf7d64fbf8d1d6bce3109b", [:rebar], [], "hexpm"},
