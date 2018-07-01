@@ -1,1 +1,1 @@
-deps/solomon/.credo.exs
+deps/antikythera/.credo.exs
