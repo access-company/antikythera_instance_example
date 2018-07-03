@@ -1,4 +1,5 @@
-%{"antikythera": {:git, "https://github.com/access-company/antikythera.git", "1b238a292b9c8dc70d42614f0cd28db132de004f", [ref: "1b238a292b9c8dc70d42614f0cd28db132de004f"]},
+%{
+  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "20fccb702c76b1a954ffd5ff11ce0066ec858f8c", [ref: "20fccb702c76b1a954ffd5ff11ce0066ec858f8c"]},
   "bbmustache": {:hex, :bbmustache, "1.0.4", "7ba94f971c5afd7b6617918a4bb74705e36cab36eb84b19b6a1b7ee06427aa38", [:rebar], [], "hexpm"},
   "calliope": {:hex, :calliope, "0.4.1", "8b7034343d247199bcf267a6e07ea296dc99ac1e90413c197114c8df0fa0b436", [:mix], [], "hexpm"},
   "certifi": {:hex, :certifi, "2.0.0", "a0c0e475107135f76b8c1d5bc7efb33cd3815cb3cf3dea7aefdd174dabead064", [:rebar3], [], "hexpm"},
@@ -36,4 +37,5 @@
   "stream_data": {:hex, :stream_data, "0.4.2", "fa86b78c88ec4eaa482c0891350fcc23f19a79059a687760ddcf8680aac2799b", [:mix], [], "hexpm"},
   "syn": {:hex, :syn, "1.6.3", "e3400a6286a7c44ed0a0293d0e83a1f44aa9b1a9ec2c8d54eee2cd1f4ff2f94e", [:rebar3], [], "hexpm"},
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.3.1", "a1f612a7b512638634a603c8f401892afbf99b8ce93a45041f8aaca99cadb85e", [:rebar3], [], "hexpm"},
-  "websocket_client": {:hex, :websocket_client, "1.3.0", "2275d7daaa1cdacebf2068891c9844b15f4fdc3de3ec2602420c2fb486db59b6", [:rebar3], [], "hexpm"}}
+  "websocket_client": {:hex, :websocket_client, "1.3.0", "2275d7daaa1cdacebf2068891c9844b15f4fdc3de3ec2602420c2fb486db59b6", [:rebar3], [], "hexpm"},
+}
