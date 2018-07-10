@@ -15,8 +15,23 @@ try do
   defmodule AntikytheraInstanceExample.Mixfile do
     use Mix.Project
 
+    versions =
+      File.read!(Path.join(__DIR__, ".tool-versions"))
+      |> String.split("\n", trim: true)
+      |> Map.new(fn line -> [n, v] = String.split(line, " ", trim: true); {n, v} end)
+    @elixir_version Map.fetch!(versions, "elixir")
+
+    # Strictly enforce Erlang/OTP and Elixir version
+    otp_version         = Map.fetch!(versions, "erlang")
+    otp_version_path    = Path.join([:code.root_dir(), "releases", System.otp_release(), "OTP_VERSION"])
+    current_otp_version = File.read!(otp_version_path) |> String.trim_trailing()
+    if current_otp_version != otp_version do
+      Mix.raise("Incorrect Erlang/OTP version! required: '#{otp_version}', used: '#{current_otp_version}'")
+    end
+
     def project() do
       github_url = "https://github.com/access-company/antikythera_instance_example"
+      base_settings = Antikythera.MixCommon.common_project_settings() |> Keyword.replace!(:elixir, @elixir_version)
       [
         app:             :antikythera_instance_example,
         version:         Antikythera.MixCommon.version_with_last_commit_info("0.1.0"),
@@ -24,7 +39,7 @@ try do
         deps:            deps(),
         source_url:      github_url,
         homepage_url:    github_url,
-      ] ++ Antikythera.MixCommon.common_project_settings()
+      ] ++ base_settings
     end
 
     def application() do
