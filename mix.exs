@@ -15,13 +15,16 @@ try do
   defmodule AntikytheraInstanceExample.Mixfile do
     use Mix.Project
 
+    # Here we strictly enforce Erlang/OTP version during evaluations of `mix.exs`.
+    # Elixir version is also checked using `:elixir` key in `project/0`.
+    # Although these version checks are not mandatory for antikythera instances,
+    # this way an antikythera instance can control Erlang/Elixir versions used in its gear projects.
     versions =
       File.read!(Path.join(__DIR__, ".tool-versions"))
       |> String.split("\n", trim: true)
       |> Map.new(fn line -> [n, v] = String.split(line, " ", trim: true); {n, v} end)
     @elixir_version Map.fetch!(versions, "elixir")
 
-    # Strictly enforce Erlang/OTP and Elixir version
     otp_version         = Map.fetch!(versions, "erlang")
     otp_version_path    = Path.join([:code.root_dir(), "releases", System.otp_release(), "OTP_VERSION"])
     current_otp_version = File.read!(otp_version_path) |> String.trim_trailing()
