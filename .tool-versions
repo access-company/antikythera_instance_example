@@ -1,1 +1,2 @@
-deps/antikythera/.tool-versions
+erlang 20.2.2
+elixir 1.6.6
