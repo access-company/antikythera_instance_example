@@ -1,5 +1,5 @@
 %{
-  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "29e7bec021879094abbc0e77e98aeb020df0ff23", [ref: "29e7bec021879094abbc0e77e98aeb020df0ff23"]},
+  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "2aa3c4ba2ace6165b8db96371ca97b7fbb2bf385", [ref: "2aa3c4ba2ace6165b8db96371ca97b7fbb2bf385"]},
   "bbmustache": {:hex, :bbmustache, "1.0.4", "7ba94f971c5afd7b6617918a4bb74705e36cab36eb84b19b6a1b7ee06427aa38", [:rebar], [], "hexpm"},
   "calliope": {:hex, :calliope, "0.4.1", "8b7034343d247199bcf267a6e07ea296dc99ac1e90413c197114c8df0fa0b436", [:mix], [], "hexpm"},
   "certifi": {:hex, :certifi, "2.3.1", "d0f424232390bf47d82da8478022301c561cf6445b5b5fb6a84d49a9e76d2639", [:rebar3], [{:parse_trans, "3.2.0", [hex: :parse_trans, repo: "hexpm", optional: false]}], "hexpm"},
