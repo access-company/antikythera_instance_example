@@ -25,11 +25,15 @@ try do
       |> Map.new(fn line -> [n, v] = String.split(line, " ", trim: true); {n, v} end)
     @elixir_version Map.fetch!(versions, "elixir")
 
-    otp_version         = Map.fetch!(versions, "erlang")
-    otp_version_path    = Path.join([:code.root_dir(), "releases", System.otp_release(), "OTP_VERSION"])
-    current_otp_version = File.read!(otp_version_path) |> String.trim_trailing()
-    if current_otp_version != otp_version do
-      Mix.raise("Incorrect Erlang/OTP version! required: '#{otp_version}', used: '#{current_otp_version}'")
+    case System.argv() do
+      ["deps" <> _ | _] -> :ok # `deps.*` command may resolve incorrect Erlang/OTP version (if any) so we shouldn't interrupt it.
+      _                 ->
+        otp_version         = Map.fetch!(versions, "erlang")
+        otp_version_path    = Path.join([:code.root_dir(), "releases", System.otp_release(), "OTP_VERSION"])
+        current_otp_version = File.read!(otp_version_path) |> String.trim_trailing()
+        if current_otp_version != otp_version do
+          Mix.raise("Incorrect Erlang/OTP version! required: '#{otp_version}', used: '#{current_otp_version}'")
+        end
     end
 
     def project() do
