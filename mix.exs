@@ -1,6 +1,6 @@
 # Copyright(c) 2015-2018 ACCESS CO., LTD. All rights reserved.
 
-antikythera_dep = {:antikythera, [github: "access-company/antikythera", ref: "8ba146b1ade4e18fdb7dcabf27cbd6e5367461e0"]}
+antikythera_dep = {:antikythera, [github: "access-company/antikythera", ref: "f66372b84721a7df658bcfa3d9e199df38e269c8"]}
 
 try do
   parent_dir = Path.expand("..", __DIR__)
