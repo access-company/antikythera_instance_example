@@ -59,9 +59,9 @@ try do
       [
         unquote(antikythera_dep),
 
-        {:exsync          , "0.2.3", [only: :dev ]},
-        {:meck            , "0.8.9", [only: :test]}, # required to run testgear tests
-        {:websocket_client, "1.3.0", [only: :test]}, # required to run testgear tests (also essential for upgrade_compatibility_test)
+        {:exsync          , "0.2.4" , [only: :dev ]},
+        {:meck            , "0.8.13", [only: :test]}, # required to run testgear tests
+        {:websocket_client, "1.3.0" , [only: :test]}, # required to run testgear tests (also essential for upgrade_compatibility_test)
       ]
     end
   end
