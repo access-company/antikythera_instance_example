@@ -14,6 +14,6 @@ You, as a platform administrator, create and deploy an "antikythera instance" li
 
 ## Copyright and License
 
-Copyright(c) 2015-2019 [ACCESS CO., LTD](https://www.access-company.com). All rights reserved.
+Copyright(c) 2015-2020 [ACCESS CO., LTD](https://www.access-company.com). All rights reserved.
 
 Antikythera source code is licensed under the [Apache License version 2.0](./LICENSE).
