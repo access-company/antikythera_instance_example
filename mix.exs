@@ -22,7 +22,10 @@ try do
     versions =
       File.read!(Path.join(__DIR__, ".tool-versions"))
       |> String.split("\n", trim: true)
-      |> Map.new(fn line -> [n, v] = String.split(line, " ", trim: true); {n, v} end)
+      |> Map.new(fn line ->
+        [n, v | _] = String.split(line, [" ", "-"], trim: true)
+        {n, v}
+      end)
     @elixir_version Map.fetch!(versions, "elixir")
 
     case System.argv() do
