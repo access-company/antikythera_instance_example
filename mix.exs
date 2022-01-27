@@ -1,4 +1,4 @@
-# Copyright(c) 2015-2021 ACCESS CO., LTD. All rights reserved.
+# Copyright(c) 2015-2022 ACCESS CO., LTD. All rights reserved.
 
 antikythera_dep = {:antikythera, [github: "access-company/antikythera", ref: "c0364fa83e070da9cf16bcafc1b282fe6e8d9412"]}
 
