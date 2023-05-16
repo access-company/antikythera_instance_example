@@ -49,6 +49,9 @@ try do
         deps:            deps(),
         source_url:      github_url,
         homepage_url:    github_url,
+        releases: [
+          antikythera_instance_example: &Mix.Tasks.AntikytheraCore.GenerateRelease.config_for_mix_release/0
+        ]
       ] ++ base_settings
     end
 
