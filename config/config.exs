@@ -1,6 +1,6 @@
 # Copyright(c) 2015-2023 ACCESS CO., LTD. All rights reserved.
 
-use Mix.Config
+import Config, only: [config: 2, import_config: 1]
 
 # Here we simply reuse `config.exs` file in the antikythera project (and override `:antikythera_instance_name`).
 # See antikythera's `config.exs` file and also `Antikythera.MixConfig` module
