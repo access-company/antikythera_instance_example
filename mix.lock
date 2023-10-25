@@ -1,5 +1,5 @@
 %{
-  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "12d8cad82f28c3549d7cdb62223ef87529d2aeeb", [ref: "12d8cad82f28c3549d7cdb62223ef87529d2aeeb"]},
+  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "c4e23dba3f4d71494b2172e28f2bf048a86154c7", [ref: "c4e23dba3f4d71494b2172e28f2bf048a86154c7"]},
   "bbmustache": {:hex, :bbmustache, "1.5.0", "8cfde0602e90a4057e161bf5288ade854b4e511e2e8924966a8438730e958381", [:rebar3], [], "hexpm", "ed074fb6e94e1a6f6e098f98a403638aba593f59a5542bc6ce2e62d829c9e375"},
   "calliope": {:hex, :calliope, "0.4.1", "8b7034343d247199bcf267a6e07ea296dc99ac1e90413c197114c8df0fa0b436", [:mix], [], "hexpm", "ad5390a7f7e26e05ddafda8ca978b1825abc8077a2a57926804187d4399e297a"},
   "certifi": {:hex, :certifi, "2.9.0", "6f2a475689dd47f19fb74334859d460a2dc4e3252a3324bd2111b8f0429e7e21", [:rebar3], [], "hexpm", "266da46bdb06d6c6d35fde799bcb28d36d985d424ad7c08b5bb48f5b5cdd4641"},
@@ -33,9 +33,9 @@
   "raft_fleet": {:hex, :raft_fleet, "0.10.2", "7f3d24923e50fad3ac8648a5d1ff11fe147f7bcc521636a3db08d620a2e16770", [:mix], [{:croma, "~> 0.10", [hex: :croma, repo: "hexpm", optional: false]}, {:rafted_value, "~> 0.9", [hex: :rafted_value, repo: "hexpm", optional: false]}], "hexpm", "f5fd62d18d95b01731cdc5cfbd4b331ed106f24be86bea09b71aa472836dbaa7"},
   "rafted_value": {:hex, :rafted_value, "0.11.2", "68d7fd3c2d6cd541b74143eaeeae760143a58becc6c1ee6642cc940023efb250", [:mix], [{:croma, "~> 0.9", [hex: :croma, repo: "hexpm", optional: false]}], "hexpm", "a628ac48591963650aa09daa1c96a49c60957db78e7980f33fe5cac604461b93"},
   "ranch": {:hex, :ranch, "1.8.0", "8c7a100a139fd57f17327b6413e4167ac559fbc04ca7448e9be9057311597a1d", [:make, :rebar3], [], "hexpm", "49fbcfd3682fab1f5d109351b61257676da1a2fdbe295904176d5e521a2ddfe5"},
-  "recon": {:hex, :recon, "2.5.3", "739107b9050ea683c30e96de050bc59248fd27ec147696f79a8797ff9fa17153", [:mix, :rebar3], [], "hexpm", "6c6683f46fd4a1dfd98404b9f78dcabc7fcd8826613a89dcb984727a8c3099d7"},
+  "recon": {:hex, :recon, "2.5.4", "05dd52a119ee4059fa9daa1ab7ce81bc7a8161a2f12e9d42e9d551ffd2ba901c", [:mix, :rebar3], [], "hexpm", "e9ab01ac7fc8572e41eb59385efeb3fb0ff5bf02103816535bacaedf327d0263"},
   "relx": {:hex, :relx, "3.33.0", "afc019320bb69881718576b3e4e1eb548c1fa3270717ba66a78004c98a77cd17", [:rebar3], [{:bbmustache, "~>1.5", [hex: :bbmustache, repo: "hexpm", optional: false]}, {:cf, "~>0.3", [hex: :cf, repo: "hexpm", optional: false]}, {:erlware_commons, "~>1.2", [hex: :erlware_commons, repo: "hexpm", optional: false]}, {:getopt, "~>1.0", [hex: :getopt, repo: "hexpm", optional: false]}, {:providers, "~>1.8", [hex: :providers, repo: "hexpm", optional: false]}], "hexpm", "6e0456139fc70bade0c45ff8a8197c5e879a57fd792f771fc632b94c5aec1eac"},
-  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.6", "cf344f5692c82d2cd7554f5ec8fd961548d4fd09e7d22f5b62482e5aeaebd4b0", [:make, :mix, :rebar3], [], "hexpm", "bdb0d2471f453c88ff3908e7686f86f9be327d065cc1ec16fa4540197ea04680"},
+  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.7", "354c321cf377240c7b8716899e182ce4890c5938111a1296add3ec74cf1715df", [:make, :mix, :rebar3], [], "hexpm", "fe4c190e8f37401d30167c8c405eda19469f34577987c76dde613e838bbc67f8"},
   "stream_data": {:hex, :stream_data, "0.4.2", "fa86b78c88ec4eaa482c0891350fcc23f19a79059a687760ddcf8680aac2799b", [:mix], [], "hexpm"},
   "syn": {:hex, :syn, "3.3.0", "4684a909efdfea35ce75a9662fc523e4a8a4e8169a3df275e4de4fa63f99c486", [:rebar3], [], "hexpm", "e58ee447bc1094bdd21bf0acc102b1fbf99541a508cd48060bf783c245eaf7d6"},
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.7.0", "bc84380c9ab48177092f43ac89e4dfa2c6d62b40b8bd132b1059ecc7232f9a78", [:rebar3], [], "hexpm", "25eee6d67df61960cf6a794239566599b09e17e668d3700247bc498638152521"},
