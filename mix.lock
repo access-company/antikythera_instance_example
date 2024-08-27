@@ -1,5 +1,5 @@
 %{
-  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "6c2201840f865ba565ed3e0341d08ec3564128fb", [ref: "6c2201840f865ba565ed3e0341d08ec3564128fb"]},
+  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "a10bc8c8c2bdf0e5f94b6e211b4fd9b5b683371f", [ref: "a10bc8c8c2bdf0e5f94b6e211b4fd9b5b683371f"]},
   "bbmustache": {:hex, :bbmustache, "1.5.0", "8cfde0602e90a4057e161bf5288ade854b4e511e2e8924966a8438730e958381", [:rebar3], [], "hexpm", "ed074fb6e94e1a6f6e098f98a403638aba593f59a5542bc6ce2e62d829c9e375"},
   "calliope": {:hex, :calliope, "0.4.1", "8b7034343d247199bcf267a6e07ea296dc99ac1e90413c197114c8df0fa0b436", [:mix], [], "hexpm", "ad5390a7f7e26e05ddafda8ca978b1825abc8077a2a57926804187d4399e297a"},
   "certifi": {:hex, :certifi, "2.9.0", "6f2a475689dd47f19fb74334859d460a2dc4e3252a3324bd2111b8f0429e7e21", [:rebar3], [], "hexpm", "266da46bdb06d6c6d35fde799bcb28d36d985d424ad7c08b5bb48f5b5cdd4641"},
@@ -29,7 +29,7 @@
   "p1_utils": {:hex, :p1_utils, "1.0.23", "7f94466ada69bd982ea7bb80fbca18e7053e7d0b82c9d9e37621fa508587069b", [:rebar3], [], "hexpm", "47f21618694eeee5006af1c88731ad86b757161e7823c29b6f73921b571c8502"},
   "parse_trans": {:hex, :parse_trans, "3.3.1", "16328ab840cc09919bd10dab29e431da3af9e9e7e7e6f0089dd5a2d2820011d8", [:rebar3], [], "hexpm", "07cd9577885f56362d414e8c4c4e6bdf10d43a8767abb92d24cbe8b24c54888b"},
   "pbkdf2": {:hex, :pbkdf2, "2.0.0", "11c23279fded5c0027ab3996cfae77805521d7ef4babde2bd7ec04a9086cf499", [:rebar3], [], "hexpm", "1e793ce6fdb0576613115714deae9dfc1d1537eaba74f07efb36de139774488d"},
-  "poison": {:hex, :poison, "4.0.1", "bcb755a16fac91cad79bfe9fc3585bb07b9331e50cfe3420a24bcc2d735709ae", [:mix], [], "hexpm", "ba8836feea4b394bb718a161fc59a288fe0109b5006d6bdf97b6badfcf6f0f25"},
+  "poison": {:hex, :poison, "6.0.0", "9bbe86722355e36ffb62c51a552719534257ba53f3271dacd20fbbd6621a583a", [:mix], [{:decimal, "~> 2.1", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "bb9064632b94775a3964642d6a78281c07b7be1319e0016e1643790704e739a2"},
   "pool_sup": {:hex, :pool_sup, "0.6.2", "dc22a380f19b9343c7737315f0f25b490b23d460cf8d115beedec56e44fea13e", [:mix], [{:croma, "~> 0.9", [hex: :croma, repo: "hexpm", optional: false]}], "hexpm", "92d9c6e0170d4495d1e90f4b22aca839b3416c678797b82bbc08c2f971bc036a"},
   "providers": {:hex, :providers, "1.8.0", "923809524b2c156aa3994bc43588ba0e4ed8ad97d7d2a09dee6b519f5e80a73b", [:rebar3], [{:getopt, "1.0.1", [hex: :getopt, repo: "hexpm", optional: false]}], "hexpm", "965500bd173b11b676abf6f50d847f335ae98ddd3093aabfe80fcc1def5028e4"},
   "raft_fleet": {:hex, :raft_fleet, "0.10.2", "7f3d24923e50fad3ac8648a5d1ff11fe147f7bcc521636a3db08d620a2e16770", [:mix], [{:croma, "~> 0.10", [hex: :croma, repo: "hexpm", optional: false]}, {:rafted_value, "~> 0.9", [hex: :rafted_value, repo: "hexpm", optional: false]}], "hexpm", "f5fd62d18d95b01731cdc5cfbd4b331ed106f24be86bea09b71aa472836dbaa7"},
