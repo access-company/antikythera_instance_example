@@ -68,7 +68,7 @@ try do
         {:exsync          , "0.2.4" , [only: :dev ]},
         {:meck            , "0.8.13", [only: :test]}, # required to run testgear tests
         {:yaml_elixir     , "2.9.0" , [only: :test]}, # required to run testgear tests
-        {:websocket_client, "1.3.0" , [only: :test]}, # required to run testgear tests (also essential for upgrade_compatibility_test)
+        {:websocket_client, "1.5.0" , [only: :test]}, # required to run testgear tests (also essential for upgrade_compatibility_test)
 
         # indirect tool deps
         # yaml_elixir
