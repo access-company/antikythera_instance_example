@@ -22,7 +22,7 @@
   "idna": {:hex, :idna, "6.1.1", "8a63070e9f7d0c62eb9d9fcb360a7de382448200fbbd1b106cc96d3d8099df8d", [:rebar3], [{:unicode_util_compat, "~> 0.7.0", [hex: :unicode_util_compat, repo: "hexpm", optional: false]}], "hexpm", "92376eb7894412ed19ac475e4a86f7b413c1b9fbb5bd16dccd57934157944cea"},
   "jason": {:hex, :jason, "1.4.4", "b9226785a9aa77b6857ca22832cffa5d5011a667207eb2a0ad56adb5db443b8a", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "c5eb0cab91f094599f94d55bc63409236a8ec69a21a67814529e8d5f6cc90b3b"},
   "jsx": {:hex, :jsx, "2.8.3", "a05252d381885240744d955fbe3cf810504eb2567164824e19303ea59eef62cf", [:mix, :rebar3], [], "hexpm"},
-  "meck": {:hex, :meck, "0.8.13", "ffedb39f99b0b99703b8601c6f17c7f76313ee12de6b646e671e3188401f7866", [:rebar3], [], "hexpm", "d34f013c156db51ad57cc556891b9720e6a1c1df5fe2e15af999c84d6cebeb1a"},
+  "meck": {:hex, :meck, "1.1.1", "8ca9c1363d982feab8ba9f441dfddadbcba96add9c4501a762568273f06b2af8", [:rebar3], [], "hexpm", "23a51200af1f1c5571633b6fa3e3b121f45d4b553f837bfca387307bd2be95ac"},
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], [], "hexpm", "69b09adddc4f74a40716ae54d140f93beb0fb8978d8636eaded0c31b6f099f16"},
   "mimerl": {:hex, :mimerl, "1.4.0", "3882a5ca67fbbe7117ba8947f27643557adec38fa2307490c4c4207624cb213b", [:rebar3], [], "hexpm", "13af15f9f68c65884ecca3a3891d50a7b57d82152792f3e19d88650aa126b144"},
   "mox": {:hex, :mox, "0.3.2", "3b9b8364fd4f28628139de701d97c636b27a8f925f57a8d5a1b85fbd620dad3a", [:mix], [], "hexpm"},
@@ -41,7 +41,7 @@
   "stream_data": {:hex, :stream_data, "0.4.2", "fa86b78c88ec4eaa482c0891350fcc23f19a79059a687760ddcf8680aac2799b", [:mix], [], "hexpm"},
   "syn": {:hex, :syn, "3.4.0", "cc16c2107bef0a729f96e95827def83e6a8d078d643f822e49419b153d475112", [:rebar3], [], "hexpm", "69e30a2181c11211791183aad148975adc6e4b3ec9718510e5ea42cf5d73de9d"},
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.7.1", "a48703a25c170eedadca83b11e88985af08d35f37c6f664d6dcfb106a97782fc", [:rebar3], [], "hexpm", "b3a917854ce3ae233619744ad1e0102e05673136776fb2fa76234f3e03b23642"},
-  "websocket_client": {:hex, :websocket_client, "1.5.0", "e825f23c51a867681a222148ed5200cc4a12e4fb5ff0b0b35963e916e2b5766b", [:rebar3], [], "hexpm", "2b9b201cc5c82b9d4e6966ad8e605832eab8f4ddb39f57ac62f34cb208b68de9"},
+  "websocket_client": {:hex, :websocket_client, "1.6.1", "115b33bf65727129224d3a602830c532481eeda667d37181abf326913473733f", [:rebar3], [], "hexpm", "d2623c48cfcdb41cf4d6b926ff042c2f505c56bada36048eb3bbe251ca4f4ad9"},
   "yamerl": {:hex, :yamerl, "0.10.0", "4ff81fee2f1f6a46f1700c0d880b24d193ddb74bd14ef42cb0bcf46e81ef2f8e", [:rebar3], [], "hexpm", "346adb2963f1051dc837a2364e4acf6eb7d80097c0f53cbdc3046ec8ec4b4e6e"},
   "yaml_elixir": {:hex, :yaml_elixir, "2.9.0", "9a256da867b37b8d2c1ffd5d9de373a4fda77a32a45b452f1708508ba7bbcb53", [:mix], [{:yamerl, "~> 0.10", [hex: :yamerl, repo: "hexpm", optional: false]}], "hexpm", "0cb0e7d4c56f5e99a6253ed1a670ed0e39c13fc45a6da054033928607ac08dfc"},
 }
