@@ -65,9 +65,10 @@ try do
       [
         unquote(antikythera_dep),
 
-        {:exsync          , "0.2.4", [only: :dev ]},
+        {:exsync          , "0.4.1", [only: :dev ]},
         {:meck            , "1.1.1", [only: :test]}, # required to run testgear tests
-        {:yaml_elixir     , "2.9.0", [only: :test]}, # required to run testgear tests
+        {:mimic           , "1.7.4", [only: :test]}, # required to run testgear tests
+        {:yaml_elixir     , "2.11.0", [only: :test]}, # required to run testgear tests
         {:websocket_client, "1.6.1", [only: :test]}, # required to run testgear tests (also essential for upgrade_compatibility_test)
 
         # indirect tool deps
