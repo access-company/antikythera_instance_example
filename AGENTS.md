@@ -68,7 +68,7 @@ Overall policy: be consistent within your change, be consistent with surrounding
 Complete all applicable steps before considering a change done:
 
 1. **Run tests** — `mix test` passes.
-2. **Lint / typecheck** — No dedicated linter/typechecker exists; instead ensure `mix compile` produces no warnings (`mix compile --warnings-as-errors`). Run `script/tool/operation/check_markdown_links.sh` if Markdown docs changed.
+2. **Lint / typecheck** — No dedicated linter/typechecker exists; instead ensure `mix compile` produces no warnings (`mix compile --warnings-as-errors`). Run `markdownlint-cli2` and `script/tool/operation/check_markdown_links.sh` if Markdown docs changed.
 3. **Review** — Self-review the change against the [Reviewer checklist](#reviewer-checklist-highlights) in Development Rules.
 4. **Re-verify** — If any files were modified during steps 1–3 (e.g. review fixes), rerun the relevant checks from steps 1–2 until they pass cleanly.
 
