@@ -34,6 +34,7 @@ Do **not** hand-edit the following:
 | Compile | `mix compile` |
 | Run tests | `mix test` |
 | Format | None configured |
+| Markdown lint/fix | `markdownlint-cli2 --fix "**/*.md"` |
 | Typecheck | None configured |
 | Static code analysis | None configured |
 
