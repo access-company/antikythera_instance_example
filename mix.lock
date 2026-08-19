@@ -1,5 +1,5 @@
 %{
-  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "0f5370fa845e88fdc13209faf0cd958244e299a2", [ref: "0f5370fa845e88fdc13209faf0cd958244e299a2"]},
+  "antikythera": {:git, "https://github.com/access-company/antikythera.git", "1da7081c180339c01772b22513a6750e13c30f23", [ref: "1da7081c180339c01772b22513a6750e13c30f23"]},
   "bbmustache": {:hex, :bbmustache, "1.5.0", "8cfde0602e90a4057e161bf5288ade854b4e511e2e8924966a8438730e958381", [:rebar3], [], "hexpm", "ed074fb6e94e1a6f6e098f98a403638aba593f59a5542bc6ce2e62d829c9e375"},
   "calliope": {:git, "git@github.com:access-company/calliope.git", "29d15fb0fdfd46ba8d3e03b73e2ec36661796f74", [ref: "29d15fb0fdfd46ba8d3e03b73e2ec36661796f74"]},
   "certifi": {:hex, :certifi, "2.15.0", "0e6e882fcdaaa0a5a9f2b3db55b1394dba07e8d6d9bcad08318fb604c6839712", [:rebar3], [], "hexpm", "b147ed22ce71d72eafdad94f055165c1c182f61a2ff49df28bcc71d1d5b94a60"},
@@ -22,6 +22,7 @@
   "idna": {:hex, :idna, "6.1.1", "8a63070e9f7d0c62eb9d9fcb360a7de382448200fbbd1b106cc96d3d8099df8d", [:rebar3], [{:unicode_util_compat, "~> 0.7.0", [hex: :unicode_util_compat, repo: "hexpm", optional: false]}], "hexpm", "92376eb7894412ed19ac475e4a86f7b413c1b9fbb5bd16dccd57934157944cea"},
   "jason": {:hex, :jason, "1.4.5", "2e3a008590b0b8d7388c20293e9dcc9cf3e5d642fd2a114e4cbbb52e595d940a", [:mix], [{:decimal, "~> 1.0 or ~> 2.0 or ~> 3.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "b0c823996102bcd0239b3c2444eb00409b72f6a140c1950bc8b457d836b30684"},
   "jsx": {:hex, :jsx, "2.8.3", "a05252d381885240744d955fbe3cf810504eb2567164824e19303ea59eef62cf", [:mix, :rebar3], [], "hexpm"},
+  "logger_backends": {:hex, :logger_backends, "1.0.1", "08a9bd09eed271eac41ff35dd7603b6abf9e0f8b6ffe40359846cb0bfd37704f", [:mix], [], "hexpm", "d7903244fe8d84eeb3d3d42f8d7de080fd0409b613040df54c78b3591672d652"},
   "meck": {:hex, :meck, "1.1.1", "8ca9c1363d982feab8ba9f441dfddadbcba96add9c4501a762568273f06b2af8", [:rebar3], [], "hexpm", "23a51200af1f1c5571633b6fa3e3b121f45d4b553f837bfca387307bd2be95ac"},
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], [], "hexpm", "69b09adddc4f74a40716ae54d140f93beb0fb8978d8636eaded0c31b6f099f16"},
   "mimerl": {:hex, :mimerl, "1.4.0", "3882a5ca67fbbe7117ba8947f27643557adec38fa2307490c4c4207624cb213b", [:rebar3], [], "hexpm", "13af15f9f68c65884ecca3a3891d50a7b57d82152792f3e19d88650aa126b144"},
