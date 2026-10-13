@@ -13,7 +13,7 @@ It is:
 
 This is an Elixir/Mix project. The instance itself is intentionally thin: most configuration and behavior are delegated to the `antikythera` dependency.
 
-- Language/runtime: Elixir `1.15.8-otp-26`, Erlang/OTP `26.2.5.14` (pinned in `.tool-versions`; enforced during `mix.exs` evaluation).
+- Language/runtime: Elixir `1.19.5-otp-26`, Erlang/OTP `26.2.5.14` (pinned in `.tool-versions`; enforced during `mix.exs` evaluation).
 - Instance name: `:antikythera_instance_example` (set in `config/config.exs`).
 - Key source files: `lib/antikythera_instance_example.ex`, `config/config.exs`, `mix.exs`.
 
